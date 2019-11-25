@@ -164,13 +164,13 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    // alignItems: 'center',
+    // justifyContent: 'center',
   },
   capturedPictureImage: {
     position: 'absolute',
-    height: "90%",
-    width: "90%",
+    height: "100%",
+    width: "100%",
   },
   capturedPictureBoxText: {
     flex: 1,
@@ -179,7 +179,7 @@ const styles = StyleSheet.create({
     margin: 20
   },
   txtCaptured: {
-    color: '#ffffff',
+    // color: '#ffffff',
     fontSize: 18,
     fontWeight: 'bold'
   }
